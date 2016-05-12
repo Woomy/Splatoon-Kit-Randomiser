@@ -279,7 +279,7 @@ var splatoon = {
 			{name:'Varsity Baseball LS', brand:'Splash Mob', mainAbility:'Recon'},
 			{name:'Varsity Jacket', brand:'Zekko', mainAbility:'Damage Up'},
 			{name:'Vintage Check Shirt', brand:'Rockenberg', mainAbility:'Haunt'},
-			{name:'White 8-Bit Fishfry', brand:'Firefin', mainAbility:'Recon'},
+			{name:'White 8-Bit FishFry', brand:'Firefin', mainAbility:'Recon'},
 			{name:'White Anchor Tee', brand:'SquidForce', mainAbility:'Ninja Squid'},
 			{name:'White Baseball LS', brand:'Rockenberg', mainAbility:'Quick Super Jump'},
 			{name:'White Inky Rider', brand:'Rockenberg', mainAbility:'Special Duration Up'},
