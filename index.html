@@ -385,7 +385,7 @@
 			
 			function playerSetup(teamName, teamIndex, lobbyIndex, randomIndexArray) {
 				document.getElementById(teamName + 'TeamPlayer' + teamIndex + 'Div').querySelector('.indexDiv').innerHTML = lobbyIndex;
-				document.getElementById(teamName + 'TeamPlayer' + teamIndex + 'Div').querySelector('.mainWeaponDiv').innerHTML = '<img src="Main Weapons/' + splatoon.weapons[randomIndexArray['weapon' + lobbyIndex + 'Index']].name + '.png"/>';
+				document.getElementById(teamName + 'TeamPlayer' + teamIndex + 'Div').querySelector('.mainWeaponDiv').innerHTML = '<img src="Main Weapons/' + unixFriendly(splatoon.weapons[randomIndexArray['weapon' + lobbyIndex + 'Index']].name) + '.png"/>';
 				document.getElementById(teamName + 'TeamPlayer' + teamIndex + 'Div').querySelector('.subWeaponDiv').innerHTML = '<img src="Sub Weapons/' + splatoon.weapons[randomIndexArray['weapon' + lobbyIndex + 'Index']].subWeapon + '.png"/>';
 				document.getElementById(teamName + 'TeamPlayer' + teamIndex + 'Div').querySelector('.specialWeaponDiv').innerHTML = '<img src="Special Weapons/' + (splatoon.weapons[randomIndexArray['weapon' + lobbyIndex + 'Index']].specialWeapon == 'Bomb Rush' ? splatoon.weapons[randomIndexArray['weapon' + lobbyIndex + 'Index']].subWeapon + ' ' : '') + splatoon.weapons[randomIndexArray['weapon' + lobbyIndex + 'Index']].specialWeapon + '.png"/>';
 				document.getElementById(teamName + 'TeamPlayer' + teamIndex + 'Div').querySelector('.weaponNameDiv').innerHTML = splatoon.weapons[randomIndexArray['weapon' + lobbyIndex + 'Index']].name;
@@ -398,6 +398,10 @@
 				document.getElementById(teamName + 'TeamPlayer' + teamIndex + 'Div').querySelector('.shoesDiv').querySelector('.gearDiv').innerHTML = '<img src="Shoes/' + splatoon.gear.shoes[randomIndexArray['shoes' + lobbyIndex + 'Index']].name + '.png"/>';
 				document.getElementById(teamName + 'TeamPlayer' + teamIndex + 'Div').querySelector('.shoesDiv').querySelector('.mainAbilityDiv').innerHTML = '<img src="Abilities/' + splatoon.gear.shoes[randomIndexArray['shoes' + lobbyIndex + 'Index']].mainAbility + '.png"/>';
 				document.getElementById(teamName + 'TeamPlayer' + teamIndex + 'Div').querySelector('.shoesDiv').querySelector('.gearNameDiv').innerHTML = splatoon.gear.shoes[randomIndexArray['shoes' + lobbyIndex + 'Index']].name;
+			}
+			
+			function unixFriendly(text) {
+				return text.replace("/'\./g","");
 			}
 			
 			var alphaTeamPlayerIndex = 0;
