@@ -103,6 +103,15 @@ var splatoon = {
 		{name:'Fresh Squiffer', subWeapon:'Suction Bomb', specialWeapon:'Kraken'},
 		{name:'Bamboozler 14 Mk III', subWeapon:'Burst Bomb', specialWeapon:'Inkstrike'},
 		{name:'Refurbished Mini Splatling', subWeapon:'Burst Bomb', specialWeapon:'Bomb Rush'},
+		{name:'Sploosh-o-matic 7', subWeapon:'Splat Bomb', specialWeapon:'Inkzooka'},
+		{name:'Aerospray PG', subWeapon:'Burst Bomb', specialWeapon:'Kraken'},
+		{name:'N-ZAP '83', subWeapon:'Point Sensor', specialWeapon:'Kraken'},
+		{name:'Grim Range Blaster', subWeapon:'Burst Bomb', specialWeapon:'Killer Wail'},
+		{name:'Cherry H-3 Nozzlenose', subWeapon:'Splash Wall', specialWeapon:'Bubbler'},
+		{name:'CoroCoro Splat Roller', subWeapon:'Splash Wall', specialWeapon:'Inkzooka'},
+		{name:'Bento Splat Charger', subWeapon:'Splash Wall', specialWeapon:'Echolocator'},
+		{name:'Bento Splatterscope', subWeapon:'Splash Wall', specialWeapon:'Echolocator'},
+		{name:'Heavy Splatling Remix', subWeapon:'Sprinkler', specialWeapon:'Killer Wail'},
 		{name:'Octoshot Replica', subWeapon:'Suction Bomb', specialWeapon:'Inkzooka'}],
 	gear: {
 		headgear: [
