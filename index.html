@@ -383,6 +383,13 @@
 				document.getElementById('seedDiv').innerHTML = 'Seed: ' + queryString['seed'];
 			}
 			
+			if (queryString['mode'] == 'splatfest') {
+				document.getElementById('alphaTeamBackgroundDiv').style.backgroundColor = 'magenta';
+				document.getElementById('alphaTeamTitleDiv').innerHTML = 'Team Callie';
+				document.getElementById('bravoTeamBackgroundDiv').style.backgroundColor = 'lime';
+				document.getElementById('bravoTeamTitleDiv').innerHTML = 'Team Marie';
+			}
+			
 			function playerSetup(teamName, teamIndex, lobbyIndex, randomIndexArray) {
 				document.getElementById(teamName + 'TeamPlayer' + teamIndex + 'Div').querySelector('.indexDiv').innerHTML = lobbyIndex;
 				document.getElementById(teamName + 'TeamPlayer' + teamIndex + 'Div').querySelector('.mainWeaponDiv').innerHTML = '<img src="Main Weapons/' + unixFriendly(splatoon.weapons[randomIndexArray['weapon' + lobbyIndex + 'Index']].name) + '.png"/>';
