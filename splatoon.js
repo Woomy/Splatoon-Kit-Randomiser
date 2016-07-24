@@ -212,7 +212,7 @@ var splatoon = {
 			{name:'Camo Zip Hoodie', brand:'Firefin', mainAbility:'Quick Respawn'},
 			{name:'Carnivore Tee', brand:'Firefin', mainAbility:'Defense Up'},
 			{name:'Choco Layered LS', brand:'Takoroka', mainAbility:'Ink Saver (Sub)'},
-			{name:'CoroCoro Hoodie', brand:'Zekko', mainAbility:'Cold-Blooded'},
+			{name:'CoroCoro Hoodie', brand:'Zekko', mainAbility:'Cold Blooded'},
 			{name:'Cycle King Jersey', brand:'Tentatek', mainAbility:'Defense Up'},
 			{name:'Cycling Shirt', brand:'Zink', mainAbility:'Cold Blooded'},
 			{name:'Dark Urban Vest', brand:'Firefin', mainAbility:'Cold Blooded'},
